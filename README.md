@@ -4,7 +4,19 @@
 
 In Winter 2014, I was living in a bedroom with a very small window, and it was very dark in the morning. As a result, I decided to create an alarm clock that simulated the sunrise. It made waking up much more pleasant!
 
-## Components:
+## Features
+
+- Track current time, even without power, using battery powered RTC (real-time clock).
+- LED lamp slowly fades into full brightness at the set alarm time, using pulse-width modulation applied to a gamma curve (to match human perception of brightness)
+- Remember important settings, such as display contrast level and alarm time, by storing in EEPROM.
+- Can set current time using Hour and Minute buttons
+- Can set alarm time using Hour and Minute buttons
+- Can toggle LCD contrast level.
+- Can toggle alarm on/off.
+- Can toggle LED lamp on/off.
+- LCD screen has backlight on timer to be readable in the dark.
+
+## Components
 
 - Arduino Uno
 - **UI**
@@ -15,3 +27,17 @@ In Winter 2014, I was living in a bedroom with a very small window, and it was v
 - **LED**
 	- 1500mA Buck Regulator LED Driver (supplies current to the LED and supports pulse-width modulation for dimming) <br><img src="other/LED-driver.jpg" width="200">
 	- ~10W LED Bulb (I recycled an LED bulb with a broken AC-DC power supply)
+
+## Design
+
+The resulting design looks roughly like this:
+
+<img src="fritzing-schematic.jpg">
+
+Nearly every available pin was required on the Arduino. Unfortunately I don't have a good picture of the device itself.
+
+## Keypad
+
+I created a mask for the 4x3 keypad, which gives a good idea of the features the Alarm Clock supports.
+
+<img src="keypad-design.png" width="300">

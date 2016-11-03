@@ -1,0 +1,5 @@
+I2C scanner. Scanning ...
+Found address: 80 (0x50)
+Found address: 104 (0x68)
+Done.
+Found 2 device(s).

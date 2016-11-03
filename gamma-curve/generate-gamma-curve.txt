@@ -1,0 +1,4 @@
+y=round((1:(1024+22))^2/(1024+22)^2*1024)
+result = y(23:1024)
+
+//tweak to get 1023 values and change last number to 1023)

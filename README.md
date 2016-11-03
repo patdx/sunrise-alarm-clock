@@ -1,13 +1,10 @@
 # Sunrise Alarm Clock
-## by Patrick Miller
 
-In Winter 2014, I was living in a bedroom with a very small window, and it was very dark in the morning.
+## Summary
 
-As a result, I decided to create an alarm clock that simulated the sunrise!
+In Winter 2014, I was living in a bedroom with a very small window, and it was very dark in the morning. As a result, I decided to create an alarm clock that simulated the sunrise. It made waking up much more pleasant!
 
-It made waking up much more pleasant!
-
-### Components:
+## Components:
 
 - Arduino Uno
 - **UI**

@@ -1,5 +1,7 @@
 # Sunrise Alarm Clock
 
+<img src="fritzing-schematic.jpg" width="60%">
+
 ## Summary
 
 In Winter 2014, I was living in a bedroom with a very small window, and it was very dark in the morning. As a result, I decided to create an alarm clock that simulated the sunrise. It made waking up much more pleasant!
@@ -32,7 +34,7 @@ In Winter 2014, I was living in a bedroom with a very small window, and it was v
 
 The resulting design looks roughly like this:
 
-<img src="fritzing-schematic.jpg">
+<img src="fritzing-schematic.jpg" width="40%">
 
 Nearly every available pin was required on the Arduino. Unfortunately I don't have a good picture of the device itself.
 

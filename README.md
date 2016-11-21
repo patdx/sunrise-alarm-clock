@@ -4,7 +4,10 @@
 
 ## Summary
 
-When I lived in a dark bedroom with a very small window, I decided to create an alarm clock that simulated the sunrise. Electronics and  software from scratch. It made waking up much more pleasant!
+This project was inspired by a persistently dark bedroom with a very small window.
+I created an alarm clock (electronics and software) that simulated the sunrise.
+
+It made waking up much more pleasant!
 
 ## Features
 

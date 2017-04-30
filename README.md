@@ -1,5 +1,11 @@
 # Sunrise Alarm Clock
 
+## Media
+
+[VIDEO: Testing Brightness Changes](https://youtu.be/-yi0IvZ5T_E)
+
+### Schematic
+
 <img src="fritzing-schematic.jpg" width="60%">
 
 ## Summary
